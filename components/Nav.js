@@ -2,12 +2,20 @@ import Link from 'next/link'
 
 function Nav() {
   return (
-    <div>
-      <Link href="/">Home</Link>
-      <Link href="/about">About</Link>
-      <Link href="/projects">Projects</Link>
-      <Link href="/contact">Contact</Link>
-    </div>
+    <ul>
+      <li>
+        <Link href="/">Home</Link>
+      </li>
+      <li>
+        <Link href="/about">About</Link>
+      </li>
+      <li>
+        <Link href="/projects">Projects</Link>
+      </li> 
+      <li>
+        <Link href="/contact">Contact</Link>
+      </li>
+    </ul>
   )
 }
 
