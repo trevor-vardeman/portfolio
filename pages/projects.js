@@ -1,6 +1,12 @@
+import styles from '@component/styles/Home.module.css'
+
 function projects() {
   return (
-    <div>projects</div>
+    <>
+      <h1>Project Name</h1>
+      <p>Project Descrption</p>
+      <p>Technologies Used</p>
+    </>
   )
 }
 
