@@ -1,6 +1,6 @@
 function TripTracker() {
   return (
-    <div>TripTracker</div>
+    <p>TripTracker</p>
   )
 }
 

@@ -1,6 +1,6 @@
 function Seenit() {
   return (
-    <div>Seenit</div>
+    <p>Seenit</p>
   )
 }
 

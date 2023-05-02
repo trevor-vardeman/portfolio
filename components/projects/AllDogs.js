@@ -1,6 +1,6 @@
 function AllDogs() {
   return (
-    <div>AllDogs</div>
+    <p>AllDogs</p>
   )
 }
 

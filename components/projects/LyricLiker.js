@@ -1,6 +1,6 @@
 function LyricLiker() {
   return (
-    <div>LyricLiker</div>
+    <p>LyricLiker</p>
   )
 }
 

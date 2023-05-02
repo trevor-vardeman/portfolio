@@ -2,9 +2,12 @@ import styles from '@component/styles/Home.module.css'
 import '@component/styles/globals.css'
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
+import React from 'react'
 import Header from '../components/Header'
 // import Nav from '../components/Nav'
 import { ProjectProvider } from '../components/context/ProjectContext'
+
+export const ProjectContext = React.createContext()
 
 const inter = Inter({ subsets: ['latin'] })
 

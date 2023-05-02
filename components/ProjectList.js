@@ -1,20 +1,24 @@
+import { useProjectContext } from './context/ProjectContext'
+
 function ProjectList() {
+  const { setProject } = useProjectContext()
+
   return (
     <ul>
       <li>
-        Trip Tracker
+        <p onClick={() => setProject("triptracker")}>TripTracker</p>
       </li>
       <li>
-        seenit
+        <p onClick={() => setProject("seenit")}>seenit</p>
       </li>
       <li>
-        All Dogs Go to the Spa
+        <p onClick={() => setProject("alldogs")}>All Dogs Go to the Spa</p>
       </li>
       <li>
-        Lyric Liker
+        <p onClick={() => setProject("lyricliker")}>Lyric Liker</p>
       </li>
       <li>
-        Worldwide Weather
+        <p onClick={() => setProject("worldwideweather")}>Worldwide Weather</p>
       </li>
     </ul>
   )

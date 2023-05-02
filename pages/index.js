@@ -1,10 +1,10 @@
-import About from '../components/About'
+import InfoContainer from '../components/InfoContainer'
 import ProjectsContainer from '../components/ProjectsContainer'
 
 export default function Home() {
   return (
-    <div class="flex-container">
-      <About />
+    <div className="flex-container">
+      <InfoContainer />
       <ProjectsContainer />
     </div>
   )

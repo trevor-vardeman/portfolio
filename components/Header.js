@@ -1,10 +1,12 @@
-import Link from 'next/link'
+import { useProjectContext } from './context/ProjectContext'
 
 function Header() {
+  const { setProject } = useProjectContext()
+
   return (
     <div className="flex-container">
       {/* <div className="flex-item"> */}
-      <Link className="link" href="/">TV</Link>
+      <p className="pointer" onClick={() => setProject("")}>TV</p>
       {/* </div> */}
       <div className="flex-item">
         <ul className="flex-container">

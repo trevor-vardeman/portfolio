@@ -1,6 +1,6 @@
 function WorldwideWeather() {
   return (
-    <div>WorldwideWeather</div>
+    <p>WorldwideWeather</p>
   )
 }
 
