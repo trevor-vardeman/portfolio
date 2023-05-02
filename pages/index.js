@@ -1,10 +1,11 @@
-import { Inter } from 'next/font/google'
-import Welcome from '../components/Welcome'
+import About from '../components/About'
+import ProjectsContainer from '../components/ProjectsContainer'
 
 export default function Home() {
   return (
-    <>
-      <Welcome />
-    </>
+    <div class="flex-container">
+      <About />
+      <ProjectsContainer />
+    </div>
   )
 }

@@ -154,6 +154,7 @@ li {
   align-items: center;
 }
 
-.flex-item {
-  /* justify-content: space-between; */
+a {
+  text-decoration: none; 
+  color: #D1D1D1; 
 }

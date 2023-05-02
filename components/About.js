@@ -1,4 +1,4 @@
-function Welcome() {
+function About() {
   return (
     <>
       <h1>Hi!</h1>
@@ -7,4 +7,4 @@ function Welcome() {
   )
 }
 
-export default Welcome
+export default About

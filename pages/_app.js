@@ -4,12 +4,13 @@ import { Inter } from 'next/font/google'
 import Head from 'next/head'
 import Header from '../components/Header'
 // import Nav from '../components/Nav'
+import { ProjectProvider } from '../components/context/ProjectContext'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function App({ Component, pageProps }) {
   return (
-    <>
+    <ProjectProvider>
       <Head>
         <title>Trevor Vardeman</title>
         <meta name="description" content="Trevor's Portfolio" />
@@ -26,6 +27,6 @@ export default function App({ Component, pageProps }) {
         {/* </div> */}
       </main>
       <footer></footer>
-    </>
+    </ProjectProvider>
   )
 }
