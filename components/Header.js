@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="flex-container">
       {/* <div className="flex-item"> */}
-      <p className="pointer" onClick={() => setProject("")}>TV</p>
+      <p className="pointer" onClick={() => setProject(null)}>TV</p>
       {/* </div> */}
       <div className="flex-item">
         <ul className="flex-container">

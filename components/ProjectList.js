@@ -1,4 +1,5 @@
 import { useProjectContext } from './context/ProjectContext'
+import { projects } from "./ProjectData"
 
 function ProjectList() {
   const { setProject } = useProjectContext()
@@ -6,19 +7,19 @@ function ProjectList() {
   return (
     <ul>
       <li>
-        <p onClick={() => setProject("triptracker")}>TripTracker</p>
+        <p onClick={() => setProject(projects[0])}>TripTracker</p>
       </li>
       <li>
-        <p onClick={() => setProject("seenit")}>seenit</p>
+        <p onClick={() => setProject(projects[1])}>seenit</p>
       </li>
       <li>
-        <p onClick={() => setProject("alldogs")}>All Dogs Go to the Spa</p>
+        <p onClick={() => setProject(projects[2])}>All Dogs Go to the Spa</p>
       </li>
       <li>
-        <p onClick={() => setProject("lyricliker")}>Lyric Liker</p>
+        <p onClick={() => setProject(projects[3])}>Lyric Liker</p>
       </li>
       <li>
-        <p onClick={() => setProject("worldwideweather")}>Worldwide Weather</p>
+        <p onClick={() => setProject(projects[4])}>Worldwide Weather</p>
       </li>
     </ul>
   )

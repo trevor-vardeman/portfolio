@@ -4,7 +4,6 @@ import { Inter } from 'next/font/google'
 import Head from 'next/head'
 import React from 'react'
 import Header from '../components/Header'
-// import Nav from '../components/Nav'
 import { ProjectProvider } from '../components/context/ProjectContext'
 
 export const ProjectContext = React.createContext()
@@ -25,9 +24,7 @@ export default function App({ Component, pageProps }) {
       </Head>
       <Header />
       <main className={`${styles.main} ${inter.className}`}>
-        {/* <div className={styles.description}> */}
         <Component {...pageProps} />
-        {/* </div> */}
       </main>
       <footer></footer>
     </ProjectProvider>

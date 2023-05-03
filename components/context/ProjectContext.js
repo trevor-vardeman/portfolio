@@ -7,7 +7,7 @@ export function useProjectContext() {
 }
 
 export function ProjectProvider({ children }) {
-  const [project, setProject] = useState("")
+  const [project, setProject] = useState(null)
 
   return (
     <ProjectContext.Provider value={{ project, setProject }}>
