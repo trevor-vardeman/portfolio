@@ -162,3 +162,7 @@ li {
 .pointer {
   cursor: pointer;
 }
+
+.header-list-item {
+  padding: 10px;
+}
